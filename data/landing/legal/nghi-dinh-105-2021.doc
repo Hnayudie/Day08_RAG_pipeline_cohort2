@@ -1,0 +1,21 @@
+Nghị định 105/2021/NĐ-CP quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phòng, chống ma túy
+
+Nguồn tra cứu chính thức: Công báo điện tử Chính phủ
+URL: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-105-2021-nd-cp-34944/37821.htm
+File tải về trên Công báo: 2021_1047 + 1048_105-2021-NĐ-CP.pdf và 2021_1047 + 1048_105-2021-NĐ-CP.doc
+
+Metadata thu thập:
+- Loại văn bản: Nghị định
+- Số, ký hiệu: 105/2021/NĐ-CP
+- Cơ quan ban hành: Chính phủ
+- Ngày ban hành: 04/12/2021
+- Ngày hiệu lực: 01/01/2022
+- Người ký: Phạm Minh Chính
+- Trích yếu: quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phòng, chống ma túy
+
+Nội dung dùng cho pipeline RAG:
+Nghị định 105/2021/NĐ-CP hướng dẫn triển khai một số quy định của Luật Phòng, chống ma túy 2021. Văn bản này phù hợp để trả lời các câu hỏi về trình tự, hồ sơ, trách nhiệm phối hợp và cách tổ chức thực hiện các biện pháp quản lý người sử dụng trái phép chất ma túy, xác định tình trạng nghiện và cai nghiện ma túy.
+
+Các nhóm thông tin quan trọng cho retrieval: quy trình xác định tình trạng nghiện ma túy; trách nhiệm của cơ quan công an, cơ quan y tế, ngành lao động - thương binh và xã hội, gia đình và chính quyền địa phương; hồ sơ quản lý người sử dụng trái phép chất ma túy; tiếp nhận, tư vấn, điều trị và hỗ trợ phục hồi trong cơ sở cai nghiện.
+
+Khi chatbot nhận câu hỏi về cai nghiện bắt buộc, cai nghiện tự nguyện, quản lý sau cai nghiện hoặc hồ sơ quản lý người sử dụng trái phép chất ma túy, chunk từ văn bản này nên được ưu tiên làm căn cứ citation. Citation gợi ý: [Nghị định 105/2021/NĐ-CP].

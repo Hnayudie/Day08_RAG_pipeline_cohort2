@@ -1,47 +1,47 @@
-"""
-Task 1 — Thu thập văn bản pháp luật về ma tuý và các chất cấm.
+"""Task 1: record legal-document sources for the RAG corpus."""
 
-Hướng dẫn:
-    1. Tìm tối thiểu 3 văn bản pháp luật (PDF/DOCX) từ các nguồn chính thống.
-    2. Tải về và lưu vào data/landing/legal/
-    3. Đặt tên file rõ ràng, không dấu, có năm ban hành.
-
-Gợi ý nguồn:
-    - https://thuvienphapluat.vn
-    - https://vanban.chinhphu.vn
-    - https://luatvietnam.vn
-
-Gợi ý văn bản:
-    - Luật Phòng, chống ma tuý 2021 (73/2021/QH15)
-    - Nghị định 105/2021/NĐ-CP
-    - Bộ luật Hình sự 2015 (sửa đổi 2017) - Chương XX
-    - Nghị định 57/2022/NĐ-CP về danh mục chất ma tuý
-"""
+from __future__ import annotations
 
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "landing" / "legal"
 
+LEGAL_SOURCES = [
+    {
+        "filename": "luat-phong-chong-ma-tuy-2021.doc",
+        "title": "Luật Phòng, chống ma túy 2021",
+        "source_url": "https://chinhphu.vn/?docid=204940&pageid=27160",
+        "attachment_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/01/73luat.pdf",
+    },
+    {
+        "filename": "nghi-dinh-105-2021.doc",
+        "title": "Nghị định 105/2021/NĐ-CP",
+        "source_url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-105-2021-nd-cp-34944/37821.htm",
+        "attachment_url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-105-2021-nd-cp-34944/37821.htm",
+    },
+    {
+        "filename": "bo-luat-hinh-su-chuong-ma-tuy.doc",
+        "title": "Bộ luật Hình sự 2015 sửa đổi 2017 - chương các tội phạm về ma túy",
+        "source_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Van-ban-hop-nhat-01-VBHN-VPQH-2017-Bo-luat-Hinh-su-363655.aspx",
+        "attachment_url": "",
+    },
+]
+
 
 def setup_directory():
-    """Tạo thư mục data/landing/legal/ nếu chưa có."""
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    print(f"✓ Thư mục đã sẵn sàng: {DATA_DIR}")
+    return DATA_DIR
 
 
-# TODO: Tải file PDF/DOCX về DATA_DIR
-# Có thể tải thủ công hoặc viết script download nếu có direct link.
-#
-# Ví dụ nếu có direct link:
-#
-# import requests
-#
-# def download_file(url: str, filename: str):
-#     response = requests.get(url)
-#     filepath = DATA_DIR / filename
-#     filepath.write_bytes(response.content)
-#     print(f"✓ Đã tải: {filepath}")
+def list_collected_files() -> list[dict]:
+    setup_directory()
+    collected = []
+    for source in LEGAL_SOURCES:
+        path = DATA_DIR / source["filename"]
+        collected.append({**source, "path": str(path), "exists": path.exists(), "size": path.stat().st_size if path.exists() else 0})
+    return collected
 
 
 if __name__ == "__main__":
-    setup_directory()
+    for item in list_collected_files():
+        print(f"{item['filename']}: exists={item['exists']} size={item['size']} source={item['source_url']}")

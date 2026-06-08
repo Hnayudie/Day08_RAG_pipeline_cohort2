@@ -1,0 +1,16 @@
+Văn bản hợp nhất 01/VBHN-VPQH năm 2017 - Bộ luật Hình sự, phần các tội phạm về ma túy
+
+Nguồn tra cứu: Thư viện Pháp luật
+URL: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Van-ban-hop-nhat-01-VBHN-VPQH-2017-Bo-luat-Hinh-su-363655.aspx
+
+Metadata thu thập:
+- Văn bản hợp nhất: 01/VBHN-VPQH năm 2017
+- Nội dung hợp nhất: Bộ luật Hình sự số 100/2015/QH13, được sửa đổi, bổ sung bởi Luật số 12/2017/QH14
+- Ngày hiệu lực của Luật sửa đổi, bổ sung: 01/01/2018
+
+Nội dung dùng cho pipeline RAG:
+Bộ luật Hình sự quy định các tội phạm về ma túy trong một chương riêng. Các điều thường được dùng để truy vấn gồm tội tàng trữ trái phép chất ma túy, vận chuyển trái phép chất ma túy, mua bán trái phép chất ma túy, chiếm đoạt chất ma túy, tổ chức sử dụng trái phép chất ma túy, chứa chấp việc sử dụng trái phép chất ma túy, cưỡng bức hoặc lôi kéo người khác sử dụng trái phép chất ma túy.
+
+Đối với câu hỏi về "hình phạt ma túy", hệ thống phải tránh kết luận máy móc vì mức hình phạt phụ thuộc hành vi, loại chất, khối lượng, tình tiết tăng nặng, tái phạm và vai trò của người phạm tội. Nếu context không chứa điều khoản cụ thể và khối lượng cụ thể, câu trả lời cần nêu rõ không đủ căn cứ để xác minh mức án cuối cùng.
+
+Nguồn này bổ trợ cho Luật Phòng, chống ma túy và Nghị định 105/2021/NĐ-CP: Luật và Nghị định giúp hiểu quản lý, phòng ngừa, cai nghiện; Bộ luật Hình sự giúp trả lời phần trách nhiệm hình sự với hành vi tàng trữ, vận chuyển, mua bán hoặc tổ chức sử dụng trái phép chất ma túy. Citation gợi ý: [Bộ luật Hình sự 2015 sửa đổi 2017, Chương các tội phạm về ma túy].

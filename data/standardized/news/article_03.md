@@ -1,0 +1,7 @@
+# Công an đưa ca sĩ Chu Bin về trụ sở để làm rõ hành vi nghi liên quan ma túy
+
+Source: https://tuoitre.vn/cong-an-dua-ca-si-chu-bin-ve-tru-so-de-lam-ro-hanh-vi-nghi-lien-quan-ma-tuy-20240606194450472.htm
+
+Crawled: 2026-06-08
+
+Tuổi Trẻ Online đưa tin Công an quận 10 TP.HCM đưa Chu Đăng Thanh, thường gọi là ca sĩ Chu Bin, cùng một số người khác về trụ sở để làm rõ hành vi nghi liên quan đến ma túy. Theo nguồn tin trong bài, vụ việc xảy ra tại một căn nhà ở quận 10. Bài viết phù hợp để hệ thống RAG trả lời các câu hỏi cần phân biệt giữa thông tin nghi vấn ban đầu, việc bị đưa về làm rõ và kết luận pháp lý cuối cùng. Từ khóa: Chu Bin, ca sĩ, nghi liên quan ma túy, Công an quận 10, làm rõ hành vi.
